@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="icon" href="/img/tatoo.png">
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>Use this site to know weather!</p>
+            <form>
+                <input  placeholder="Location">
+                <button>Search</button>
+            </form>
+        </div>
+        <!--<div id="animated-gif-container"></div>-->
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        {{>footbar}}
+                <script src="/JS/app.js"></script>
+    </body>
+</html>
