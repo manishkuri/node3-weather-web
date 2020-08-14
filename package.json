@@ -3,16 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.js"
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": "",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "nodeman": "^1.1.2",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishkuri/node3-weather-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manishkuri/node3-weather-web/issues"
+  },
+  "homepage": "https://github.com/manishkuri/node3-weather-web#readme",
+  "description": ""
 }
